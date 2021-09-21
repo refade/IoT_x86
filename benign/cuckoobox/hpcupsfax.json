@@ -1,0 +1,987 @@
+{
+    "info": {
+        "added": 1628114333.472129, 
+        "started": 1628124476.898481, 
+        "duration": 921, 
+        "ended": 1628125397.935677, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2345071, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "win7x6429", 
+            "label": "win7x6429", 
+            "platform": "windows", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-08-05 00:53:24", 
+            "shutdown_on": "2021-08-05 01:03:17"
+        }, 
+        "platform": "windows", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "45035074f31348743f4f35ba7a4db67ff44eed71", 
+            "name": "hpcupsfax", 
+            "type": "ELF 32-bit LSB shared object, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=b0b0287c3dc093f2f9d577e4aac4d8625d6591a7, stripped", 
+            "sha256": "86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2", 
+            "urls": [], 
+            "crc32": "DE79F5C9", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2", 
+            "ssdeep": "384:IQIJggTjNltltTQxtfQmUyOkKNAM5kVqvMxnjYxnYH61K2Hl4KvB14i8w:IQIJfTRlHhQvQmdKNMVYMlzsKjKvEi8", 
+            "size": 30064, 
+            "sha512": "c0336cb35fc32f4ac4a79abb21a01965d20537f801ec7bcb6171daefe148fdfb44f5093d34ff5199183ac8b1abb6192b5942e37c9d0ac8b5c232d0463c1fc5d5", 
+            "md5": "b75b6863bb75fcd8adfb4eab9a7d8d70"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "83ac26f1-e63f-4e10-bd4d-d186280e843f", 
+        "parent_file_sha256": null, 
+        "name": "86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2", 
+        "scan_date": 1628114612, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "probes_total": 16, 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, Intel 80386, version 1 (SYSV)", 
+            "sha1": "45035074f31348743f4f35ba7a4db67ff44eed71", 
+            "tags": [], 
+            "timestamp_first_scan": 1626888684.21, 
+            "timestamp_last_scan": 1628114620.42, 
+            "sha256": "86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2", 
+            "md5": "b75b6863bb75fcd8adfb4eab9a7d8d70", 
+            "size": 30064
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.74, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-07-22_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18300.4", 
+                    "results": null, 
+                    "virus_database_version": "1.343.1173.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.24, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-05-05"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.88, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6087dbf0-1e845 (2021-04-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.18, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.11, 
+                    "version": "8.3.62.226", 
+                    "results": null, 
+                    "virus_database_version": "8.18.36.236"
+                }, 
+                "Kaspersky (Windows)": {
+                    "status": 0, 
+                    "duration": 2.67, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 4.96, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "9966"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.33, 
+                    "version": "5.74.0", 
+                    "results": null, 
+                    "virus_database_version": "5.83 (23 March 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.13, 
+                    "version": "11.1.9.2103151924", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26190"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.2, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.88854 (16/06/2021)"
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "2021.1.0.10606", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Bitdefender Antivirus Scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.87, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "b9d910bd-a5a5-4f62-8d04-72dda77125f6", 
+        "file_sha256": "86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "scans": {
+            "Bkav": {
+                "detected": false, 
+                "version": "1.3.0.9899", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Lionic": {
+                "detected": false, 
+                "version": "4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "DrWeb": {
+                "detected": false, 
+                "version": "7.0.49.9080", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": false, 
+                "version": "14.0.409.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "FireEye": {
+                "detected": false, 
+                "version": "32.44.1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": false, 
+                "version": "14.00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "ALYac": {
+                "detected": false, 
+                "version": "1.1.3.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Malwarebytes": {
+                "detected": false, 
+                "version": "4.2.2.27", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Zillya": {
+                "detected": false, 
+                "version": "2.0.0.4376", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210529"
+            }, 
+            "Sangfor": {
+                "detected": false, 
+                "version": "2.9.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210416"
+            }, 
+            "K7AntiVirus": {
+                "detected": false, 
+                "version": "11.184.37306", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "K7GW": {
+                "detected": false, 
+                "version": "11.184.37306", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "BitDefenderTheta": {
+                "detected": false, 
+                "version": "7.2.37796.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210525"
+            }, 
+            "Cyren": {
+                "detected": false, 
+                "version": "6.3.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Symantec": {
+                "detected": false, 
+                "version": "1.14.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "ESET-NOD32": {
+                "detected": false, 
+                "version": "23383", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "TrendMicro-HouseCall": {
+                "detected": false, 
+                "version": "10.0.0.1040", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Avast": {
+                "detected": false, 
+                "version": "21.1.5827.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "ClamAV": {
+                "detected": false, 
+                "version": "0.103.2.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "Kaspersky": {
+                "detected": false, 
+                "version": "21.0.1.45", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "BitDefender": {
+                "detected": false, 
+                "version": "7.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "NANO-Antivirus": {
+                "detected": false, 
+                "version": "1.0.146.25311", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210529"
+            }, 
+            "Tencent": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Ad-Aware": {
+                "detected": false, 
+                "version": "3.0.21.179", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Sophos": {
+                "detected": false, 
+                "version": "1.0.2.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "Comodo": {
+                "detected": false, 
+                "version": "33578", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "F-Secure": {
+                "detected": false, 
+                "version": "12.0.86.52", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Baidu": {
+                "detected": false, 
+                "version": "1.0.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190318"
+            }, 
+            "VIPRE": {
+                "detected": false, 
+                "version": "92946", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "TrendMicro": {
+                "detected": false, 
+                "version": "11.0.0.1006", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": false, 
+                "version": "v2019.1.2+3728", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "CMC": {
+                "detected": false, 
+                "version": "2.10.2019.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210506"
+            }, 
+            "Emsisoft": {
+                "detected": false, 
+                "version": "2018.12.0.1641", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "SentinelOne": {
+                "detected": false, 
+                "version": "5.1.0.5", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210518"
+            }, 
+            "Avast-Mobile": {
+                "detected": false, 
+                "version": "210530-02", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "Jiangmin": {
+                "detected": false, 
+                "version": "16.0.100", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "Avira": {
+                "detected": false, 
+                "version": "8.3.3.12", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "MAX": {
+                "detected": false, 
+                "version": "2019.9.16.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Antiy-AVL": {
+                "detected": false, 
+                "version": "3.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Kingsoft": {
+                "detected": false, 
+                "version": "2017.9.26.565", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Microsoft": {
+                "detected": false, 
+                "version": "1.1.18200.4", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Gridinsoft": {
+                "detected": false, 
+                "version": "1.0.41.133", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Arcabit": {
+                "detected": false, 
+                "version": "1.0.0.886", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "ViRobot": {
+                "detected": false, 
+                "version": "2014.3.20.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "ZoneAlarm": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "GData": {
+                "detected": false, 
+                "version": "A:25.29816B:27.23196", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Cynet": {
+                "detected": false, 
+                "version": "4.0.0.27", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "AhnLab-V3": {
+                "detected": false, 
+                "version": "3.20.1.10133", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Acronis": {
+                "detected": false, 
+                "version": "1.1.1.82", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210512"
+            }, 
+            "McAfee": {
+                "detected": false, 
+                "version": "6.0.6.653", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "TACHYON": {
+                "detected": false, 
+                "version": "2021-05-31.02", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "VBA32": {
+                "detected": false, 
+                "version": "5.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210528"
+            }, 
+            "Zoner": {
+                "detected": false, 
+                "version": "0.0.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "Rising": {
+                "detected": false, 
+                "version": "25.0.0.26", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Yandex": {
+                "detected": false, 
+                "version": "5.5.2.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210529"
+            }, 
+            "Ikarus": {
+                "detected": false, 
+                "version": "0.1.5.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "MaxSecure": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Fortinet": {
+                "detected": false, 
+                "version": "6.2.142.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }, 
+            "Panda": {
+                "detected": false, 
+                "version": "4.6.4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210530"
+            }, 
+            "Qihoo-360": {
+                "detected": false, 
+                "version": "1.0.0.1120", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210531"
+            }
+        }, 
+        "scan_id": "86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2-1622447819", 
+        "sha1": "45035074f31348743f4f35ba7a4db67ff44eed71", 
+        "resource": "b75b6863bb75fcd8adfb4eab9a7d8d70", 
+        "response_code": 1, 
+        "scan_date": "2021-05-31 07:56:59", 
+        "permalink": "https://www.virustotal.com/gui/file/86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2/detection/f-86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2-1622447819", 
+        "summary": {
+            "positives": 0, 
+            "permalink": "https://www.virustotal.com/gui/file/86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2/detection/f-86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2-1622447819", 
+            "scan_date": "2021-05-31 07:56:59"
+        }, 
+        "sha256": "86d4a01ae797fb2c1ba3e5080fd1447f805c1a84028ab94823095f519ea9edb2", 
+        "normalized": [], 
+        "total": 61, 
+        "positives": 0, 
+        "verbose_msg": "Scan finished, information embedded", 
+        "md5": "b75b6863bb75fcd8adfb4eab9a7d8d70"
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "6c5f42e797968f5e8387549b0b496224324823c7150d801261e6aab120602893", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "c04df3913272953d821ccfcadf1ca9e7cb8aa74f0a5d704d551b93b56aacc60d", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "memory": {
+        "malconfscan": {
+            "data": [], 
+            "config": {
+                "filter": false
+            }
+        }, 
+        "yarascan": {
+            "data": [
+                {
+                    "owner": "Process svchost.exe Pid 924", 
+                    "hexdump": "0x031abb68  73 00 79 00 73 00 74 00 65 00 6d 00 69 00 6e 00   s.y.s.t.e.m.i.n.\n0x031abb78  66 00 6f 00 2e 00 65 00 78 00 65 00 00 00 ff ff   f.o...e.x.e.....\n0x031abb88  3f 1a 29 54 03 5f 00 80 d2 01 1a 03 00 00 00 00   ?.)T._..........\n0x031abb98  01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................\n", 
+                    "rule": "gen_memory_commands_shell_dev"
+                }, 
+                {
+                    "owner": "Process explorer.exe Pid 1788", 
+                    "hexdump": "0x06354ee8  73 00 79 00 73 00 74 00 65 00 6d 00 69 00 6e 00   s.y.s.t.e.m.i.n.\n0x06354ef8  66 00 6f 00 2e 00 65 00 78 00 65 00 00 00 00 00   f.o...e.x.e.....\n0x06354f08  9d 75 2c 6c 74 00 00 80 8a 06 35 06 00 00 00 00   .u,lt.....5.....\n0x06354f18  01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................\n", 
+                    "rule": "gen_memory_commands_shell_dev"
+                }
+            ], 
+            "config": {
+                "filter": false
+            }
+        }
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-08-04 21:58:53,000 [analyzer] DEBUG: Starting analyzer from: C:\\tmpd0os1j\n", 
+            "2021-08-04 21:58:53,015 [analyzer] DEBUG: Pipe server name: \\??\\PIPE\\JuMWZjdNHEQRXomXHGJwglDCdfMUlv\n", 
+            "2021-08-04 21:58:53,015 [analyzer] DEBUG: Log pipe server name: \\??\\PIPE\\cEjPvtcBNBnehuLhMETNYSyFmNzUUASD\n", 
+            "2021-08-04 21:58:53,015 [analyzer] DEBUG: elf\n"
+        ], 
+        "cuckoo": [
+            "2021-08-05 00:48:23,140 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:48:33,162 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:48:43,203 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:48:53,227 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:49:03,256 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:49:13,283 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:49:23,312 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:49:33,334 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:49:43,357 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:49:53,381 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:50:03,403 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:50:13,426 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:50:23,458 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:50:33,485 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:50:43,526 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:50:53,574 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:51:03,608 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:51:13,651 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:51:23,693 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:51:33,735 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:51:43,784 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:51:53,830 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:52:03,865 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:52:13,906 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:52:23,944 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:52:33,978 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:52:44,050 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:52:54,143 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:53:04,179 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:53:14,208 [cuckoo.core.scheduler] DEBUG: Task #2345071: no machine available yet\n", 
+            "2021-08-05 00:53:24,249 [cuckoo.core.scheduler] INFO: Task #2345071: acquired machine win7x6429 (label=win7x6429)\n", 
+            "2021-08-05 00:53:24,252 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.229 for task #2345071\n", 
+            "2021-08-05 00:53:24,359 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 725338 (interface=vboxnet0, host=192.168.168.229)\n", 
+            "2021-08-05 00:53:24,479 [cuckoo.machinery.virtualbox] DEBUG: Starting vm win7x6429\n", 
+            "2021-08-05 00:53:24,801 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine win7x6429 to vmcloak\n", 
+            "2021-08-05 00:58:02,912 [cuckoo.core.guest] INFO: Starting analysis #2345071 on guest (id=win7x6429, ip=192.168.168.229)\n", 
+            "2021-08-05 00:58:03,916 [cuckoo.core.guest] DEBUG: win7x6429: not ready yet\n", 
+            "2021-08-05 00:58:04,924 [cuckoo.core.guest] DEBUG: win7x6429: not ready yet\n", 
+            "2021-08-05 00:58:05,934 [cuckoo.core.guest] DEBUG: win7x6429: not ready yet\n", 
+            "2021-08-05 00:58:05,953 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=win7x6429, ip=192.168.168.229)\n", 
+            "2021-08-05 00:58:06,038 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=win7x6429, ip=192.168.168.229, monitor=latest, size=6640384)\n", 
+            "2021-08-05 00:58:07,415 [cuckoo.core.resultserver] DEBUG: Task #2345071: live log analysis.log initialized.\n", 
+            "2021-08-05 00:58:07,473 [cuckoo.core.resultserver] DEBUG: Task #2345071 had connection reset for <Context for LOG>\n", 
+            "2021-08-05 00:58:09,965 [cuckoo.core.guest] WARNING: win7x6429: analysis #2345071 caught an exception\n", 
+            "Traceback (most recent call last):\n", 
+            "  File \"C:/tmpd0os1j/analyzer.py\", line 824, in <module>\n", 
+            "    success = analyzer.run()\n", 
+            "  File \"C:/tmpd0os1j/analyzer.py\", line 593, in run\n", 
+            "    \"not exist.\".format(package_name))\n", 
+            "CuckooError: Unable to import package \"modules.packages.elf\", does not exist.\n", 
+            "\n", 
+            "2021-08-05 00:58:09,974 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-08-05 00:58:10,050 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-08-05 00:58:30,682 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label win7x6429 to path /srv/cuckoo/cwd/storage/analyses/2345071/memory.dmp\n", 
+            "2021-08-05 00:58:30,685 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm win7x6429\n", 
+            "2021-08-05 01:03:17,555 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.229 for task #2345071\n", 
+            "2021-08-05 01:03:17,730 [cuckoo.core.scheduler] DEBUG: Released database task #2345071\n", 
+            "2021-08-05 01:03:17,821 [cuckoo.core.scheduler] INFO: Task #2345071: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libhpip.so.0", 
+        "_ITM_deregisterTMCloneTable", 
+        "__gmon_start__", 
+        "_ITM_registerTMCloneTable", 
+        "ipClose", 
+        "ipConvert", 
+        "ipSetDefaultInputTraits", 
+        "ipOpen", 
+        "libcups.so.2", 
+        "ppdClose", 
+        "ppdOpenFile", 
+        "ppdFindAttr", 
+        "libcupsimage.so.2", 
+        "cupsRasterReadPixels", 
+        "cupsRasterOpen", 
+        "cupsRasterClose", 
+        "cupsRasterReadHeader2", 
+        "libdl.so.2", 
+        "dlopen", 
+        "dlclose", 
+        "dlerror", 
+        "libstdc++.so.6", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "__fdelt_chk", 
+        "__read_chk", 
+        "strncpy", 
+        "unlink", 
+        "select", 
+        "mkstemp", 
+        "strtol", 
+        "strlen", 
+        "openlog", 
+        "memset", 
+        "strstr", 
+        "__errno_location", 
+        "__syslog_chk", 
+        "fclose", 
+        "malloc", 
+        "strcasecmp", 
+        "getenv", 
+        "__snprintf_chk", 
+        "fdopen", 
+        "__cxa_finalize", 
+        "strcmp", 
+        "strerror", 
+        "__libc_start_main", 
+        "__stack_chk_fail", 
+        "_edata", 
+        "__bss_start", 
+        "convert_endian_l", 
+        "szFileHeader", 
+        "_fp_hw", 
+        "hpFileName", 
+        "szPageHeader", 
+        "fax_encoding", 
+        "device_name", 
+        "convert_endian_s", 
+        "GLIBCXX_3.4", 
+        "GLIBC_2.0", 
+        "GLIBC_2.1", 
+        "GLIBC_2.15", 
+        "GLIBC_2.4", 
+        "GLIBC_2.3.4", 
+        "GLIBC_2.1.3", 
+        "t$,VWP", 
+        "/etc/cups/cupsd.conf", 
+        "hpLogLevel", 
+        "Letter", 
+        "DEVICE_URI", 
+        "HPFax4", 
+        "HPFax2", 
+        "TMPDIR", 
+        "%s/hp_%s_fax_tiffXXXXXX", 
+        "hpcupsfax", 
+        "%s/hp_%s_fax_Log_XXXXXX", 
+        "cupsModelName", 
+        "DefaultEncoding", 
+        "Encoding=MMR", 
+        "Encoding=MH", 
+        "Encoding=Auto", 
+        "Encoding=TIFF", 
+        "prnt/hpijs/hpcupsfax.cpp 123: DEBUG: HPFAX - startPage...", 
+        "prnt/hpijs/hpcupsfax.cpp 124: DEBUG: HPFAX - MediaClass = \"%s\"", 
+        "prnt/hpijs/hpcupsfax.cpp 125: DEBUG: HPFAX - MediaColor = \"%s\"", 
+        "prnt/hpijs/hpcupsfax.cpp 126: DEBUG: HPFAX - MediaType = \"%s\"", 
+        "prnt/hpijs/hpcupsfax.cpp 127: DEBUG: HPFAX - OutputType = \"%s\"", 
+        "prnt/hpijs/hpcupsfax.cpp 128: DEBUG: HPFAX - AdvanceDistance = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 129: DEBUG: HPFAX - AdvanceMedia = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 130: DEBUG: HPFAX - Collate = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 131: DEBUG: HPFAX - CutMedia = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 132: DEBUG: HPFAX - Duplex = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 133: DEBUG: HPFAX - HWResolution = [ %d %d ]", 
+        "prnt/hpijs/hpcupsfax.cpp 136: DEBUG: HPFAX - ImagingBoundingBox = [ %d %d %d %d ]", 
+        "prnt/hpijs/hpcupsfax.cpp 137: DEBUG: HPFAX - InsertSheet = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 138: DEBUG: HPFAX - Jog = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 139: DEBUG: HPFAX - LeadingEdge = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 140: DEBUG: HPFAX - Margins = [ %d %d ]", 
+        "prnt/hpijs/hpcupsfax.cpp 141: DEBUG: HPFAX - ManualFeed = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 142: DEBUG: HPFAX - MediaPosition = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 143: DEBUG: HPFAX - MediaWeight = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 144: DEBUG: HPFAX - MirrorPrint = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 145: DEBUG: HPFAX - NegativePrint = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 146: DEBUG: HPFAX - NumCopies = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 147: DEBUG: HPFAX - Orientation = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 148: DEBUG: HPFAX - OutputFaceUp = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 149: DEBUG: HPFAX - PageSize = [ %d %d ]", 
+        "prnt/hpijs/hpcupsfax.cpp 150: DEBUG: HPFAX - Separations = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 151: DEBUG: HPFAX - TraySwitch = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 152: DEBUG: HPFAX - Tumble = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 153: DEBUG: HPFAX - cupsWidth = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 154: DEBUG: HPFAX - cupsHeight = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 155: DEBUG: HPFAX - cupsMediaType = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 156: DEBUG: HPFAX - cupsRowStep = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 157: DEBUG: HPFAX - cupsBitsPerColor = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 158: DEBUG: HPFAX - cupsBitsPerPixel = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 159: DEBUG: HPFAX - cupsBytesPerLine = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 160: DEBUG: HPFAX - cupsColorOrder = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 161: DEBUG: HPFAX - cupsColorSpace = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 162: DEBUG: HPFAX - cupsCompression = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 163: DEBUG: HPFAX - cupsPageSizeName = %s", 
+        "prnt/hpijs/hpcupsfax.cpp 181: hpcupsfax: GetPageSizeFromString:Default Page Size is taken,ensure it is ok.", 
+        "prnt/hpijs/hpcupsfax.cpp 185: hpcupsfax: GetPageSizeFromString: PageSize = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 229: ATOI Value  = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 258: Unable to allocate pInputBuf, size = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 286: unable to allocate pbOutputBuf,  buffer size = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 340: ipOpen failed: wResult = %x", 
+        "prnt/hpijs/hpcupsfax.cpp 353: ipSetDefaultInputTraits failed: wResult = %x", 
+        "prnt/hpijs/hpcupsfax.cpp 366: ipConvert failed, wResult = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 372: dwInputAvail = %d dwInputUsed = %d dwOutputUsed = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 455: ERROR: Unable to open Fax output file - %s for writing", 
+        "prnt/hpijs/hpcupsfax.cpp 482: hpcupsfax: read %d bytes from stdin", 
+        "prnt/hpijs/hpcupsfax.cpp 486: hpcupsfax: No data was available...", 
+        "prnt/hpijs/hpcupsfax.cpp 494: hpcupsfax: Timed out, Continue...", 
+        "prnt/hpijs/hpcupsfax.cpp 499: hpcupsfax: Data is available", 
+        "prnt/hpijs/hpcupsfax.cpp 503: hpcupsfax: read %d bytes from stdin", 
+        "prnt/hpijs/hpcupsfax.cpp 505: hpcupsfax: No data was available, Continue...", 
+        "prnt/hpijs/hpcupsfax.cpp 513: hpcupsfax: total bytes written to fdTiff is  %d ", 
+        "prnt/hpijs/hpcupsfax.cpp 519: hpcupsfax: read %d bytes from fdTiff", 
+        "prnt/hpijs/hpcupsfax.cpp 522: hpcupsfax: it is big endian", 
+        "prnt/hpijs/hpcupsfax.cpp 526: hpcupsfax: ifd_offset is %d", 
+        "prnt/hpijs/hpcupsfax.cpp 539: hpcupsfax: read %d bytes from fdTiff; ifd count is %d", 
+        "prnt/hpijs/hpcupsfax.cpp 548: hpcupsfax: read %d bytes from fdTiff at %d; next ifd offset is %d", 
+        "prnt/hpijs/hpcupsfax.cpp 552: hpcupsfax: Current page_counter is %d", 
+        "prnt/hpijs/hpcupsfax.cpp 556: hpcupsfax: page_length is %d ", 
+        "prnt/hpijs/hpcupsfax.cpp 561: hpcupsfax: current_ifd_start=%d next_ifd_offset=%d total bytes are %d", 
+        "prnt/hpijs/hpcupsfax.cpp 588: Error!! Bytes written to toFD is becoming more than input file size.", 
+        "prnt/hpijs/hpcupsfax.cpp 620: hpcupsfax: lseek(fromFD) returned %d", 
+        "prnt/hpijs/hpcupsfax.cpp 663: ERROR: %s job-id user title copies options [file]", 
+        "prnt/hpijs/hpcupsfax.cpp 671: ERROR: Unable to open raster file %s", 
+        "prnt/hpijs/hpcupsfax.cpp 677: hpcupsfax: argv[%d] = %s", 
+        "prnt/hpijs/hpcupsfax.cpp 687: ERROR: Unable to open Fax output file - %s for writing", 
+        "prnt/hpijs/hpcupsfax.cpp 698: ERROR: Unable to open ppd file %s", 
+        "prnt/hpijs/hpcupsfax.cpp 705: ERROR: Required cupsModelName is missing in ppd file", 
+        "prnt/hpijs/hpcupsfax.cpp 716: ERROR: Required DefaultEncoding is missing in ppd file", 
+        "prnt/hpijs/hpcupsfax.cpp 729: WARNING: AUTO is selected for Fax Encoding! Ensure this type is correct for the device", 
+        "prnt/hpijs/hpcupsfax.cpp 745: WARNING: AUTO is selected for Fax Encoding! Ensure this type is correct for the device", 
+        "prnt/hpijs/hpcupsfax.cpp 750: ERROR: Required DefaultEncoding is invalid in ppd file", 
+        "prnt/hpijs/hpcupsfax.cpp 753: hpcupsfax: main: fax_encoding = %d ", 
+        "prnt/hpijs/hpcupsfax.cpp 764: cupsRasterOpen failed, fd = %d", 
+        "prnt/hpijs/hpcupsfax.cpp 773: hpcupsfax: Send data to stdout ", 
+        "/etc/hp/hplip.conf", 
+        "version", 
+        "[hplip]", 
+        "[plugin]", 
+        "/var/lib/hp/hplip.state", 
+        "[dirs]", 
+        "%s/prnt/plugins/%s", 
+        "%s/scan/plugins/%s", 
+        "%s/fax/plugins/%s", 
+        "common/utils.c 69: unable to open %s: %m", 
+        "common/utils.c 99: unable to find %s %s in %s", 
+        "common/utils.c 119: validate_plugin_version() Failed to get Plugin version from [%s]", 
+        "common/utils.c 130: validate_plugin_version() Plugin version[%s] mismatch with HPLIP version[%s]", 
+        "common/utils.c 183: Invalid Library name", 
+        "common/utils.c 188: unable to load library %s: %s", 
+        "common/utils.c 145: Invalid Library name", 
+        "common/utils.c 151: Failed to find the home directory from hplip.conf file", 
+        "common/utils.c 157: Plugin version is not matching ", 
+        "common/utils.c 169: Invalid Library Type =%d ", 
+        "common/utils.c 198: Invalid Library hanlder", 
+        "common/utils.c 204: Invalid Library symbol", 
+        "common/utils.c 210: Can't find %s symbol in Library:%s", 
+        "common/utils.c 220: Invalid Library hanlder pLibHandler = NULL.", 
+        "common/utils.c 229: Invalid Filename/ pointer", 
+        "common/utils.c 239: Failed to create the temp file Name[%s] errno[%d : %s]", 
+        "b0287c3dc093f2f9d577e4aac4d8625d6591a7.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".note.gnu.build-id", 
+        ".gnu.hash", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".rel.plt", 
+        ".plt.got", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".dynamic", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "c04df3913272953d821ccfcadf1ca9e7cb8aa74f0a5d704d551b93b56aacc60d", 
+                "dirname": ""
+            }
+        }
+    }
+}
