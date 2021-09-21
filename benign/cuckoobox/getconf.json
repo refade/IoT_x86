@@ -1,0 +1,1226 @@
+{
+    "info": {
+        "added": 1626981177.151543, 
+        "started": 1627054133.66675, 
+        "duration": 75, 
+        "ended": 1627054209.516773, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2325543, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x646", 
+            "label": "Ubuntu1904x646", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-07-23 15:28:55", 
+            "shutdown_on": "2021-07-23 15:30:09"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "dd63cadc10f02d757cd7c100b73f0322e0ec5019", 
+            "name": "getconf", 
+            "type": "ELF 32-bit LSB shared object, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=2f4e85e8f4bad1728e4f416e344781fea23d5ca0, stripped", 
+            "sha256": "89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c", 
+            "urls": [
+                "https://bugs.launchpad.net/ubuntu/"
+            ], 
+            "crc32": "0D859D99", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c", 
+            "ssdeep": null, 
+            "size": 21956, 
+            "sha512": "786919b100ce0f552e55f02edaa7c30498876404a73427b16e5a7f213f71827a06bee0a36a1be32da3e2c1223b9e352344a9627bb2550e9409bd78b7e2056ec4", 
+            "md5": "84296cfe45d37a5a786b4522199f60cb"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "bd81b888-4ae2-4393-a7e1-05d3120ab1e3", 
+        "parent_file_sha256": null, 
+        "name": "89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c", 
+        "scan_date": 1627075528, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "probes_total": 16, 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB shared object, Intel 80386, version 1 (SYSV)", 
+            "sha1": "dd63cadc10f02d757cd7c100b73f0322e0ec5019", 
+            "tags": [], 
+            "timestamp_first_scan": 1626885532.47, 
+            "timestamp_last_scan": 1627075544.18, 
+            "sha256": "89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c", 
+            "md5": "84296cfe45d37a5a786b4522199f60cb", 
+            "size": 21956
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-06-08_09"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18300.4", 
+                    "results": null, 
+                    "virus_database_version": "1.343.1173.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.76, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-05-05"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.85, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6087dbf0-1e845 (2021-04-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.18, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.27, 
+                    "version": "8.3.62.226", 
+                    "results": null, 
+                    "virus_database_version": "8.18.36.236"
+                }, 
+                "Kaspersky (Windows)": {
+                    "status": 0, 
+                    "duration": 0.61, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-07-21 19:18:00 (full)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 4.86, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "9966"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 12.11, 
+                    "version": "5.74.0", 
+                    "results": null, 
+                    "virus_database_version": "5.83 (23 March 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.08, 
+                    "version": "11.1.9.2103151924", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26190"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.08, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.88854 (16/06/2021)"
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.25, 
+                    "version": "2021.1.0.10606", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Bitdefender Antivirus Scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.57, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "278c3c49-f8e7-4b60-8217-fb126f9ddaac", 
+        "file_sha256": "89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "scans": {
+            "Bkav": {
+                "detected": false, 
+                "version": "1.3.0.9899", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Lionic": {
+                "detected": false, 
+                "version": "4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": false, 
+                "version": "14.0.409.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "FireEye": {
+                "detected": false, 
+                "version": "32.44.1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": false, 
+                "version": "14.00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "McAfee": {
+                "detected": false, 
+                "version": "6.0.6.653", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Malwarebytes": {
+                "detected": false, 
+                "version": "4.2.2.27", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Zillya": {
+                "detected": false, 
+                "version": "2.0.0.4382", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210607"
+            }, 
+            "Sangfor": {
+                "detected": false, 
+                "version": "2.9.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210607"
+            }, 
+            "K7AntiVirus": {
+                "detected": false, 
+                "version": "11.187.37398", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "K7GW": {
+                "detected": false, 
+                "version": "11.187.37398", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Arcabit": {
+                "detected": false, 
+                "version": "1.0.0.886", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Baidu": {
+                "detected": false, 
+                "version": "1.0.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190318"
+            }, 
+            "Cyren": {
+                "detected": false, 
+                "version": "6.3.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Symantec": {
+                "detected": false, 
+                "version": "1.14.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "ESET-NOD32": {
+                "detected": false, 
+                "version": "23431", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "TrendMicro-HouseCall": {
+                "detected": false, 
+                "version": "10.0.0.1040", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Avast": {
+                "detected": false, 
+                "version": "21.1.5827.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "ClamAV": {
+                "detected": false, 
+                "version": "0.103.2.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Kaspersky": {
+                "detected": false, 
+                "version": "21.0.1.45", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "BitDefender": {
+                "detected": false, 
+                "version": "7.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "NANO-Antivirus": {
+                "detected": false, 
+                "version": "1.0.146.25311", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210605"
+            }, 
+            "Tencent": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Ad-Aware": {
+                "detected": false, 
+                "version": "3.0.21.179", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "TACHYON": {
+                "detected": false, 
+                "version": "2021-06-09.01", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Emsisoft": {
+                "detected": false, 
+                "version": "2018.12.0.1641", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Comodo": {
+                "detected": false, 
+                "version": "33605", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "F-Secure": {
+                "detected": false, 
+                "version": "12.0.86.52", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "DrWeb": {
+                "detected": false, 
+                "version": "7.0.49.9080", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "VIPRE": {
+                "detected": false, 
+                "version": "93160", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "TrendMicro": {
+                "detected": false, 
+                "version": "11.0.0.1006", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": false, 
+                "version": "v2019.1.2+3728", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "CMC": {
+                "detected": false, 
+                "version": "2.10.2019.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210506"
+            }, 
+            "Sophos": {
+                "detected": false, 
+                "version": "1.0.2.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "SentinelOne": {
+                "detected": false, 
+                "version": "5.1.0.5", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210518"
+            }, 
+            "Avast-Mobile": {
+                "detected": false, 
+                "version": "210608-00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Jiangmin": {
+                "detected": false, 
+                "version": "16.0.100", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Avira": {
+                "detected": false, 
+                "version": "8.3.3.12", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Antiy-AVL": {
+                "detected": false, 
+                "version": "3.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Kingsoft": {
+                "detected": false, 
+                "version": "2017.9.26.565", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Gridinsoft": {
+                "detected": false, 
+                "version": "1.0.44.137", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Microsoft": {
+                "detected": false, 
+                "version": "1.1.18200.4", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "ViRobot": {
+                "detected": false, 
+                "version": "2014.3.20.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "ZoneAlarm": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "GData": {
+                "detected": false, 
+                "version": "A:25.29904B:27.23297", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Cynet": {
+                "detected": false, 
+                "version": "4.0.0.27", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "AhnLab-V3": {
+                "detected": false, 
+                "version": "3.20.2.10137", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Acronis": {
+                "detected": false, 
+                "version": "1.1.1.82", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210512"
+            }, 
+            "BitDefenderTheta": {
+                "detected": false, 
+                "version": "7.2.37796.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210602"
+            }, 
+            "ALYac": {
+                "detected": false, 
+                "version": "1.1.3.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "MAX": {
+                "detected": false, 
+                "version": "2019.9.16.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "VBA32": {
+                "detected": false, 
+                "version": "5.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Zoner": {
+                "detected": false, 
+                "version": "0.0.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Rising": {
+                "detected": false, 
+                "version": "25.0.0.26", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Yandex": {
+                "detected": false, 
+                "version": "5.5.2.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Ikarus": {
+                "detected": false, 
+                "version": "0.1.5.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "MaxSecure": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Fortinet": {
+                "detected": false, 
+                "version": "6.2.142.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }, 
+            "Panda": {
+                "detected": false, 
+                "version": "4.6.4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210608"
+            }, 
+            "Qihoo-360": {
+                "detected": false, 
+                "version": "1.0.0.1120", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210609"
+            }
+        }, 
+        "scan_id": "89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c-1623218673", 
+        "sha1": "dd63cadc10f02d757cd7c100b73f0322e0ec5019", 
+        "resource": "84296cfe45d37a5a786b4522199f60cb", 
+        "response_code": 1, 
+        "scan_date": "2021-06-09 06:04:33", 
+        "permalink": "https://www.virustotal.com/gui/file/89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c/detection/f-89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c-1623218673", 
+        "summary": {
+            "positives": 0, 
+            "permalink": "https://www.virustotal.com/gui/file/89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c/detection/f-89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c-1623218673", 
+            "scan_date": "2021-06-09 06:04:33"
+        }, 
+        "sha256": "89a74271bd2afe14d809cdcfea4177e47ffc357c4060c97694ac6733daea764c", 
+        "normalized": [], 
+        "total": 61, 
+        "positives": 0, 
+        "verbose_msg": "Scan finished, information embedded", 
+        "md5": "84296cfe45d37a5a786b4522199f60cb"
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2069, 
+                "summary": {}, 
+                "first_seen": 1626981184.203388, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Thu Jul 22 19:13:04 2021.203388 sh@7f26d8ba6957[2069] execve(\"/tmp/getconf\", [\"/tmp/getconf\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/getconf\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpPl59Ea\"]) = -2 (ENOENT)\n", 
+                        "api": "execve", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f26d8ba6957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/getconf", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpPl59Ea"
+                            ], 
+                            "p0": "/tmp/getconf", 
+                            "p1": [
+                                "/tmp/getconf"
+                            ]
+                        }, 
+                        "time": 1626981184.203388
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Thu Jul 22 19:13:04 2021.203642 sh@7f26d8bd2024[2069] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7f26d8bd2024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1626981184.203642
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Thu Jul 22 19:13:04 2021.203728 sh@7f26d8bd2024[2069] write(2, \"/tmp/getconf: not found\", 23) = 23\n", 
+                        "api": "write", 
+                        "return_value": "23", 
+                        "category": "process", 
+                        "instruction_pointer": "7f26d8bd2024", 
+                        "arguments": {
+                            "p2": "23", 
+                            "p0": "2", 
+                            "p1": "/tmp/getconf: not found"
+                        }, 
+                        "time": 1626981184.203728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Thu Jul 22 19:13:04 2021.203816 sh@7f26d8bd2024[2069] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f26d8bd2024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1626981184.203816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2069, 
+                        "raw": "Thu Jul 22 19:13:04 2021.203893 sh@7f26d8ba6926[2069] exit_group(127)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f26d8ba6926", 
+                        "arguments": {
+                            "p0": "127"
+                        }, 
+                        "time": 1626981184.203893
+                    }
+                ], 
+                "pid": 2069, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1626981184.203388, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2069, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1626981184.203388, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-07-22 19:12:57,002 [root] DEBUG: Starting analyzer from: /tmp/tmpPl59Ea\n", 
+            "2021-07-22 19:12:57,002 [root] DEBUG: Storing results at: /tmp/UIZYsW\n", 
+            "2021-07-22 19:12:58,472 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-07-22 19:12:58,476 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-07-22 19:12:58,981 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-07-22 19:13:04,201 [lib.core.packages] INFO: Process startup took 5.22 seconds\n", 
+            "2021-07-22 19:13:04,206 [root] INFO: Added new process to list with pid: 2058\n", 
+            "2021-07-22 19:13:10,214 [root] INFO: Process with pid 2058 has terminated\n", 
+            "2021-07-22 19:13:10,216 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-07-22 19:13:13,219 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-07-22 19:13:13,220 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-07-23 15:28:54,773 [cuckoo.core.scheduler] INFO: Task #2325543: acquired machine Ubuntu1904x646 (label=Ubuntu1904x646)\n", 
+            "2021-07-23 15:28:54,773 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.106 for task #2325543\n", 
+            "2021-07-23 15:28:54,894 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3666962 (interface=vboxnet0, host=192.168.168.106)\n", 
+            "2021-07-23 15:28:55,009 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x646\n", 
+            "2021-07-23 15:28:55,399 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x646 to Snapshot\n", 
+            "2021-07-23 15:29:05,027 [cuckoo.core.guest] INFO: Starting analysis #2325543 on guest (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-07-23 15:29:06,030 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-07-23 15:29:07,041 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-07-23 15:29:08,046 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-07-23 15:29:09,052 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-07-23 15:29:10,073 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-07-23 15:29:11,078 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2021-07-23 15:29:11,093 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2021-07-23 15:29:11,108 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x646, ip=192.168.168.106, monitor=latest, size=70098)\n", 
+            "2021-07-23 15:29:12,270 [cuckoo.core.resultserver] DEBUG: Task #2325543: live log analysis.log initialized.\n", 
+            "2021-07-23 15:29:16,825 [cuckoo.core.resultserver] DEBUG: Task #2325543: File upload for 'shots/0001.jpg'\n", 
+            "2021-07-23 15:29:16,854 [cuckoo.core.resultserver] DEBUG: Task #2325543 uploaded file length: 171514\n", 
+            "2021-07-23 15:29:26,281 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2325543 still processing\n", 
+            "2021-07-23 15:29:28,505 [cuckoo.core.resultserver] DEBUG: Task #2325543: File upload for 'logs/all.stap'\n", 
+            "2021-07-23 15:29:28,526 [cuckoo.core.resultserver] DEBUG: Task #2325543 uploaded file length: 894\n", 
+            "2021-07-23 15:29:41,444 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2325543 still processing\n", 
+            "2021-07-23 15:29:53,506 [cuckoo.core.guest] INFO: Ubuntu1904x646: end of analysis reached!\n", 
+            "2021-07-23 15:29:53,519 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-07-23 15:29:53,600 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-07-23 15:30:05,029 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x646 to path /srv/cuckoo/cwd/storage/analyses/2325543/memory.dmp\n", 
+            "2021-07-23 15:30:05,030 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x646\n", 
+            "2021-07-23 15:30:09,227 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.106 for task #2325543\n", 
+            "2021-07-23 15:30:09,228 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2325543\n", 
+            "2021-07-23 15:30:09,329 [cuckoo.core.scheduler] DEBUG: Released database task #2325543\n", 
+            "2021-07-23 15:30:09,406 [cuckoo.core.scheduler] INFO: Task #2325543: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libc.so.6", 
+        "_IO_stdin_used", 
+        "pathconf", 
+        "setlocale", 
+        "strncmp", 
+        "__progname", 
+        "putchar", 
+        "_libc_intl_domainname", 
+        "__dcgettext", 
+        "__errno_location", 
+        "confstr", 
+        "malloc", 
+        "stderr", 
+        "textdomain", 
+        "fprintf", 
+        "__cxa_finalize", 
+        "strcmp", 
+        "__libc_start_main", 
+        "sysconf", 
+        "program_invocation_short_name", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.0", 
+        "_ITM_deregisterTMCloneTable", 
+        "__gmon_start__", 
+        "_ITM_registerTMCloneTable", 
+        "Usage: %s [-v specification] variable_name [pathname]", 
+        "Copyright (C) %s Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "Usage: getconf [-v SPEC] VAR", 
+        "  or:  getconf [-v SPEC] PATH_VAR PATH", 
+        "Get the configuration value for variable VAR, or for variable PATH_VAR", 
+        "for path PATH.  If SPEC is given, give values for compilation", 
+        "environment SPEC.", 
+        "For bug reporting instructions, please see:", 
+        "<https://bugs.launchpad.net/ubuntu/+source/glibc/+bugs>", 
+        "_POSIX_THREAD_PRIORITY_SCHEDULING", 
+        "_POSIX_THREAD_ROBUST_PRIO_INHERIT", 
+        "_POSIX_THREAD_ROBUST_PRIO_PROTECT", 
+        "POSIX_V6_ILP32_OFF32_LINTFLAGS", 
+        "_POSIX_V6_WIDTH_RESTRICTED_ENVS", 
+        "POSIX_V6_WIDTH_RESTRICTED_ENVS", 
+        "POSIX_V6_ILP32_OFFBIG_LINTFLAGS", 
+        "POSIX_V6_LPBIG_OFFBIG_LINTFLAGS", 
+        "POSIX_V7_ILP32_OFF32_LINTFLAGS", 
+        "_POSIX_V7_WIDTH_RESTRICTED_ENVS", 
+        "POSIX_V7_WIDTH_RESTRICTED_ENVS", 
+        "POSIX_V7_ILP32_OFFBIG_LINTFLAGS", 
+        "POSIX_V7_LPBIG_OFFBIG_LINTFLAGS", 
+        "       %s -a [pathname]", 
+        "memory exhausted", 
+        "confstr", 
+        "--version", 
+        "(Ubuntu GLIBC 2.27-3ubuntu1) ", 
+        "getconf %s%s", 
+        "Written by %s.", 
+        "Roland McGrath", 
+        "--help", 
+        "_POSIX_", 
+        "pathconf: %s", 
+        "undefined", 
+        "Unrecognized variable `%s'", 
+        "_POSIX_LINK_MAX", 
+        "_POSIX_MAX_CANON", 
+        "_POSIX_MAX_INPUT", 
+        "_POSIX_NAME_MAX", 
+        "_POSIX_PATH_MAX", 
+        "_POSIX_PIPE_BUF", 
+        "SOCK_MAXBUF", 
+        "_POSIX_ASYNC_IO", 
+        "_POSIX_CHOWN_RESTRICTED", 
+        "_POSIX_NO_TRUNC", 
+        "_POSIX_PRIO_IO", 
+        "_POSIX_SYNC_IO", 
+        "_POSIX_VDISABLE", 
+        "ATEXIT_MAX", 
+        "CHAR_BIT", 
+        "CLK_TCK", 
+        "INT_MIN", 
+        "LOGNAME_MAX", 
+        "LONG_BIT", 
+        "MB_LEN_MAX", 
+        "NL_ARGMAX", 
+        "NL_LANGMAX", 
+        "NL_MSGMAX", 
+        "NL_NMAX", 
+        "NL_SETMAX", 
+        "NL_TEXTMAX", 
+        "NSS_BUFLEN_GROUP", 
+        "NSS_BUFLEN_PASSWD", 
+        "PAGESIZE", 
+        "PAGE_SIZE", 
+        "PASS_MAX", 
+        "PTHREAD_DESTRUCTOR_ITERATIONS", 
+        "PTHREAD_KEYS_MAX", 
+        "PTHREAD_STACK_MIN", 
+        "PTHREAD_THREADS_MAX", 
+        "SCHAR_MAX", 
+        "SCHAR_MIN", 
+        "SHRT_MIN", 
+        "TTY_NAME_MAX", 
+        "UCHAR_MAX", 
+        "UINT_MAX", 
+        "UIO_MAXIOV", 
+        "ULONG_MAX", 
+        "USHRT_MAX", 
+        "WORD_BIT", 
+        "_AVPHYS_PAGES", 
+        "_NPROCESSORS_CONF", 
+        "_NPROCESSORS_ONLN", 
+        "_PHYS_PAGES", 
+        "_POSIX_ARG_MAX", 
+        "_POSIX_ASYNCHRONOUS_IO", 
+        "_POSIX_CHILD_MAX", 
+        "_POSIX_FSYNC", 
+        "_POSIX_JOB_CONTROL", 
+        "_POSIX_MAPPED_FILES", 
+        "_POSIX_MEMLOCK", 
+        "_POSIX_MEMLOCK_RANGE", 
+        "_POSIX_MEMORY_PROTECTION", 
+        "_POSIX_MESSAGE_PASSING", 
+        "_POSIX_NGROUPS_MAX", 
+        "_POSIX_OPEN_MAX", 
+        "_POSIX_PII", 
+        "_POSIX_PII_INTERNET", 
+        "_POSIX_PII_INTERNET_DGRAM", 
+        "_POSIX_PII_INTERNET_STREAM", 
+        "_POSIX_PII_OSI", 
+        "_POSIX_PII_OSI_CLTS", 
+        "_POSIX_PII_OSI_COTS", 
+        "_POSIX_PII_OSI_M", 
+        "_POSIX_PII_SOCKET", 
+        "_POSIX_PII_XTI", 
+        "_POSIX_POLL", 
+        "_POSIX_PRIORITIZED_IO", 
+        "_POSIX_PRIORITY_SCHEDULING", 
+        "_POSIX_REALTIME_SIGNALS", 
+        "_POSIX_SAVED_IDS", 
+        "_POSIX_SELECT", 
+        "_POSIX_SEMAPHORES", 
+        "_POSIX_SHARED_MEMORY_OBJECTS", 
+        "_POSIX_SSIZE_MAX", 
+        "_POSIX_STREAM_MAX", 
+        "_POSIX_SYNCHRONIZED_IO", 
+        "_POSIX_THREADS", 
+        "_POSIX_THREAD_ATTR_STACKADDR", 
+        "_POSIX_THREAD_ATTR_STACKSIZE", 
+        "_POSIX_THREAD_PRIO_INHERIT", 
+        "_POSIX_THREAD_PRIO_PROTECT", 
+        "_POSIX_THREAD_PROCESS_SHARED", 
+        "_POSIX_THREAD_SAFE_FUNCTIONS", 
+        "_POSIX_TIMERS", 
+        "_POSIX_TZNAME_MAX", 
+        "_POSIX_VERSION", 
+        "_T_IOV_MAX", 
+        "_XOPEN_CRYPT", 
+        "_XOPEN_ENH_I18N", 
+        "_XOPEN_LEGACY", 
+        "_XOPEN_REALTIME", 
+        "_XOPEN_REALTIME_THREADS", 
+        "_XOPEN_SHM", 
+        "_XOPEN_UNIX", 
+        "_XOPEN_VERSION", 
+        "_XOPEN_XCU_VERSION", 
+        "_XOPEN_XPG2", 
+        "_XOPEN_XPG3", 
+        "_XOPEN_XPG4", 
+        "CHARCLASS_NAME_MAX", 
+        "EQUIV_CLASS_MAX", 
+        "POSIX2_BC_BASE_MAX", 
+        "POSIX2_BC_DIM_MAX", 
+        "POSIX2_BC_SCALE_MAX", 
+        "POSIX2_BC_STRING_MAX", 
+        "POSIX2_CHAR_TERM", 
+        "POSIX2_COLL_WEIGHTS_MAX", 
+        "POSIX2_C_BIND", 
+        "POSIX2_C_DEV", 
+        "POSIX2_C_VERSION", 
+        "POSIX2_EXPR_NEST_MAX", 
+        "POSIX2_FORT_DEV", 
+        "POSIX2_FORT_RUN", 
+        "_POSIX2_LINE_MAX", 
+        "POSIX2_LOCALEDEF", 
+        "POSIX2_RE_DUP_MAX", 
+        "POSIX2_SW_DEV", 
+        "POSIX2_UPE", 
+        "POSIX2_VERSION", 
+        "CS_PATH", 
+        "LFS_CFLAGS", 
+        "LFS_LDFLAGS", 
+        "LFS_LIBS", 
+        "LFS_LINTFLAGS", 
+        "LFS64_CFLAGS", 
+        "LFS64_LDFLAGS", 
+        "LFS64_LIBS", 
+        "LFS64_LINTFLAGS", 
+        "_XBS5_WIDTH_RESTRICTED_ENVS", 
+        "_XBS5_ILP32_OFF32", 
+        "XBS5_ILP32_OFF32_CFLAGS", 
+        "XBS5_ILP32_OFF32_LDFLAGS", 
+        "XBS5_ILP32_OFF32_LIBS", 
+        "XBS5_ILP32_OFF32_LINTFLAGS", 
+        "_XBS5_ILP32_OFFBIG", 
+        "XBS5_ILP32_OFFBIG_CFLAGS", 
+        "XBS5_ILP32_OFFBIG_LDFLAGS", 
+        "XBS5_ILP32_OFFBIG_LIBS", 
+        "XBS5_ILP32_OFFBIG_LINTFLAGS", 
+        "_XBS5_LP64_OFF64", 
+        "XBS5_LP64_OFF64_CFLAGS", 
+        "XBS5_LP64_OFF64_LDFLAGS", 
+        "XBS5_LP64_OFF64_LIBS", 
+        "XBS5_LP64_OFF64_LINTFLAGS", 
+        "_XBS5_LPBIG_OFFBIG", 
+        "XBS5_LPBIG_OFFBIG_CFLAGS", 
+        "XBS5_LPBIG_OFFBIG_LDFLAGS", 
+        "XBS5_LPBIG_OFFBIG_LIBS", 
+        "XBS5_LPBIG_OFFBIG_LINTFLAGS", 
+        "_POSIX_V6_ILP32_OFF32", 
+        "POSIX_V6_ILP32_OFF32_CFLAGS", 
+        "POSIX_V6_ILP32_OFF32_LDFLAGS", 
+        "POSIX_V6_ILP32_OFF32_LIBS", 
+        "_POSIX_V6_ILP32_OFFBIG", 
+        "POSIX_V6_ILP32_OFFBIG_CFLAGS", 
+        "POSIX_V6_ILP32_OFFBIG_LDFLAGS", 
+        "POSIX_V6_ILP32_OFFBIG_LIBS", 
+        "_POSIX_V6_LP64_OFF64", 
+        "POSIX_V6_LP64_OFF64_CFLAGS", 
+        "POSIX_V6_LP64_OFF64_LDFLAGS", 
+        "POSIX_V6_LP64_OFF64_LIBS", 
+        "POSIX_V6_LP64_OFF64_LINTFLAGS", 
+        "_POSIX_V6_LPBIG_OFFBIG", 
+        "POSIX_V6_LPBIG_OFFBIG_CFLAGS", 
+        "POSIX_V6_LPBIG_OFFBIG_LDFLAGS", 
+        "POSIX_V6_LPBIG_OFFBIG_LIBS", 
+        "_POSIX_V7_ILP32_OFF32", 
+        "POSIX_V7_ILP32_OFF32_CFLAGS", 
+        "POSIX_V7_ILP32_OFF32_LDFLAGS", 
+        "POSIX_V7_ILP32_OFF32_LIBS", 
+        "_POSIX_V7_ILP32_OFFBIG", 
+        "POSIX_V7_ILP32_OFFBIG_CFLAGS", 
+        "POSIX_V7_ILP32_OFFBIG_LDFLAGS", 
+        "POSIX_V7_ILP32_OFFBIG_LIBS", 
+        "_POSIX_V7_LP64_OFF64", 
+        "POSIX_V7_LP64_OFF64_CFLAGS", 
+        "POSIX_V7_LP64_OFF64_LDFLAGS", 
+        "POSIX_V7_LP64_OFF64_LIBS", 
+        "POSIX_V7_LP64_OFF64_LINTFLAGS", 
+        "_POSIX_V7_LPBIG_OFFBIG", 
+        "POSIX_V7_LPBIG_OFFBIG_CFLAGS", 
+        "POSIX_V7_LPBIG_OFFBIG_LDFLAGS", 
+        "POSIX_V7_LPBIG_OFFBIG_LIBS", 
+        "_POSIX_ADVISORY_INFO", 
+        "_POSIX_BARRIERS", 
+        "_POSIX_BASE", 
+        "_POSIX_C_LANG_SUPPORT", 
+        "_POSIX_C_LANG_SUPPORT_R", 
+        "_POSIX_CLOCK_SELECTION", 
+        "_POSIX_CPUTIME", 
+        "_POSIX_THREAD_CPUTIME", 
+        "_POSIX_DEVICE_SPECIFIC", 
+        "_POSIX_DEVICE_SPECIFIC_R", 
+        "_POSIX_FD_MGMT", 
+        "_POSIX_FIFO", 
+        "_POSIX_PIPE", 
+        "_POSIX_FILE_ATTRIBUTES", 
+        "_POSIX_FILE_LOCKING", 
+        "_POSIX_FILE_SYSTEM", 
+        "_POSIX_MONOTONIC_CLOCK", 
+        "_POSIX_MULTI_PROCESS", 
+        "_POSIX_SINGLE_PROCESS", 
+        "_POSIX_NETWORKING", 
+        "_POSIX_READER_WRITER_LOCKS", 
+        "_POSIX_SPIN_LOCKS", 
+        "_POSIX_REGEXP", 
+        "_REGEX_VERSION", 
+        "_POSIX_SHELL", 
+        "_POSIX_SIGNALS", 
+        "_POSIX_SPAWN", 
+        "_POSIX_SPORADIC_SERVER", 
+        "_POSIX_THREAD_SPORADIC_SERVER", 
+        "_POSIX_SYSTEM_DATABASE", 
+        "_POSIX_SYSTEM_DATABASE_R", 
+        "_POSIX_TIMEOUTS", 
+        "_POSIX_TYPED_MEMORY_OBJECTS", 
+        "_POSIX_USER_GROUPS", 
+        "_POSIX_USER_GROUPS_R", 
+        "POSIX2_PBS", 
+        "POSIX2_PBS_ACCOUNTING", 
+        "POSIX2_PBS_LOCATE", 
+        "POSIX2_PBS_TRACK", 
+        "POSIX2_PBS_MESSAGE", 
+        "SYMLOOP_MAX", 
+        "AIO_LISTIO_MAX", 
+        "AIO_MAX", 
+        "AIO_PRIO_DELTA_MAX", 
+        "DELAYTIMER_MAX", 
+        "HOST_NAME_MAX", 
+        "LOGIN_NAME_MAX", 
+        "MQ_OPEN_MAX", 
+        "MQ_PRIO_MAX", 
+        "_POSIX_DEVICE_IO", 
+        "_POSIX_TRACE", 
+        "_POSIX_TRACE_EVENT_FILTER", 
+        "_POSIX_TRACE_INHERIT", 
+        "_POSIX_TRACE_LOG", 
+        "RTSIG_MAX", 
+        "SEM_NSEMS_MAX", 
+        "SEM_VALUE_MAX", 
+        "SIGQUEUE_MAX", 
+        "FILESIZEBITS", 
+        "POSIX_ALLOC_SIZE_MIN", 
+        "POSIX_REC_INCR_XFER_SIZE", 
+        "POSIX_REC_MAX_XFER_SIZE", 
+        "POSIX_REC_MIN_XFER_SIZE", 
+        "POSIX_REC_XFER_ALIGN", 
+        "SYMLINK_MAX", 
+        "GNU_LIBC_VERSION", 
+        "GNU_LIBPTHREAD_VERSION", 
+        "POSIX2_SYMLINKS", 
+        "LEVEL1_ICACHE_SIZE", 
+        "LEVEL1_ICACHE_ASSOC", 
+        "LEVEL1_ICACHE_LINESIZE", 
+        "LEVEL1_DCACHE_SIZE", 
+        "LEVEL1_DCACHE_ASSOC", 
+        "LEVEL1_DCACHE_LINESIZE", 
+        "LEVEL2_CACHE_SIZE", 
+        "LEVEL2_CACHE_ASSOC", 
+        "LEVEL2_CACHE_LINESIZE", 
+        "LEVEL3_CACHE_SIZE", 
+        "LEVEL3_CACHE_ASSOC", 
+        "LEVEL3_CACHE_LINESIZE", 
+        "LEVEL4_CACHE_SIZE", 
+        "LEVEL4_CACHE_ASSOC", 
+        "LEVEL4_CACHE_LINESIZE", 
+        "_POSIX_IPV6", 
+        "_POSIX_RAW_SOCKETS", 
+        "4e85e8f4bad1728e4f416e344781fea23d5ca0.debug", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".note.gnu.build-id", 
+        ".gnu.hash", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rel.dyn", 
+        ".rel.plt", 
+        ".plt.got", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".init_array", 
+        ".fini_array", 
+        ".data.rel.ro", 
+        ".dynamic", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
