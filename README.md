@@ -37,70 +37,80 @@ It is included as adversity, in the combat to malicious applications, the fact o
 
 Antivirus |	Deteccion (%) |	False Negative (%) |	Omission (%)
 --------- | ------------- | ------------------ | -------------
-Avast	| 24% | 	76% |	0% |
-AVG	24	1	75
-Kaspersky	21	79	0
-GData	21	78	1
-Microsoft	20	80	0
-ClamAV	18	81	1
-BitDefenderTheta	18	82	0
-Tencent	17	83	0
-Avast-Mobile	17	83	0
-Fortinet	17	83	0
-ZoneAlarm	16	84	0
-AhnLab-V3	15	85	0
-McAfee	14	86	0
-McAfee-GW-Edition	14	83	3
-TrendMicro-HouseCall	13	87	0
-BitDefender	13	87	0
-FireEye	13	87	0
-MicroWorld-eScan	13	87	0
-MAX	13	87	0
-Ad-Aware	13	87	0
-Emsisoft	13	87	0
-ALYac	12	80	8
-TrendMicro	12	88	0
-Avira	11	89	0
-Sophos	11	86	3
-Cynet	11	88	1
-Sangfor	11	85	4
-Rising	10	90	0
-Cyren	9	91	0
-Lionic	8	90	2
-Ikarus	8	92	0
-Symantec	7	89	4
-MaxSecure	7	92	1
-Arcabit	6	94	0
-Bkav	2	98	0
-CMC	0	100	0
-VBA32	0	100	0
-F-Prot	0	3	97
-Babable	0	2	98
-CAT-QuickHeal	0	100	0
-Qihoo-360	0	100	0
-Panda	0	100	0
+MicroWorld-eScan	90,75% |	9,25% |	0% |
+Ad-Aware	90,67	9,17	0,17
+BitDefender	90,67	9,25	0,08
+FireEye	90,25	9,33	0,42
+GData	89,92	8,92	1,17
+Emsisoft	89,75	10,17	0,08
+NANO-Antivirus	88,5	11,5	0
+Tencent	87,83	12,08	0,08
+Ikarus	87,67	9,33	3
+AVG	86,92	0,33	12,75
+Kaspersky	86,75	12,67	0,58
+MAX	86,67	13	0,33
+McAfee	85,83	13,5	0,67
+Microsoft	85,83	12,83	1,33
+Symantec	85,75	12,42	1,83
+Avast	85,58	12,17	2,25
+ClamAV	85,58	13,17	1,25
+ESET-NOD32	84,25	15,75	0
+TrendMicro-HouseCall	83,42	16,5	0,08
+SentinelOne	82,83	8,67	8,5
+McAfee-GW-Edition	82,75	14,42	2,83
+Sangfor	80,33	14	5,67
+TrendMicro	80	18,42	1,58
+Zillya	80	18,33	1,67
+DrWeb	79,58	20,42	0
+ALYac	79,42	9,25	11,33
+Comodo	76,92	21,75	1,33
+Rising	76,83	22,83	0,33
+Fortinet	76,5	23,5	0
+Jiangmin	74,17	11,17	14,67
+Lionic	71,42	27,83	0,75
+Avira	68,25	31,75	0
+Cynet	68,17	31,58	0,25
+Sophos	62,25	37,5	0,25
+ZoneAlarm	56,58	43,17	0,25
+Arcabit	56,5	43,5	0
+Cyren	52,5	47,5	0
+AhnLab-V3	44,67	55,33	0
+Qihoo-360	38,58	61,33	0,08
+Antiy-AVL	36	16,42	47,58
+F-Secure	33,42	66,5	0,08
+Avast-Mobile	32,25	67,75	0
+BitDefenderTheta	28,08	71,33	0,58
+MaxSecure	20,75	77,5	1,75
+Panda	18,17	81,83	0
+Yandex	17,83	82,08	0,08
+CAT-QuickHeal	11	88,75	0,25
+VIPRE	7,92	91,83	0,25
+CMC	6,25	93,75	0
+ViRobot	4,58	95,42	0
+VBA32	3,75	96,17	0,08
+Gridinsoft	1,17	97	1,83
+F-Prot	0,33	1,83	97,83
+SymantecMobileInsight	0,25	0	99,75
+Bkav	0,17	99,08	0,75
+CyrenCloud	0,08	0	99,92
+TotalDefense	0,08	44	55,92
+Zoner	0	98,67	1,33
+Acronis	0	97	3
+CrowdStrike	0	0,08	99,92
+Invincea	0	0,08	99,92
+Trustlook	0	0,17	99,83
+Elastic	0	0,08	99,92
+Babable	0	0,5	99,5
 Malwarebytes	0	100	0
-VIPRE	0	100	0
+eGambit	0	3,17	96,83
 K7AntiVirus	0	100	0
 K7GW	0	100	0
-Yandex	0	100	0
-Baidu	0	100	0
-Zoner	0	100	0
-ESET-NOD32	0	100	0
-Jiangmin	0	100	0
-NANO-Antivirus	0	100	0
-Acronis	0	99	1
+Baidu	0	99,08	0,92
 SUPERAntiSpyware	0	100	0
 TACHYON	0	100	0
-Comodo	0	99	1
-F-Secure	0	100	0
-ViRobot	0	100	0
-DrWeb	0	100	0
-Gridinsoft	0	99	1
-Kingsoft	0	100	0
-Antiy-AVL	0	92	8
-Zillya	0	98	2
-TotalDefense	0	1	99
+Kingsoft	0	97,08	2,92
+Cybereason	0	0,08	99,92
+
 
 
 
@@ -108,71 +118,79 @@ TotalDefense	0	1	99
 
 Antivírus |	VirusShare_0d1b1736b6b210f5e036c35278db4fbc |	VirusShare_0d2ca61588afc2c98798333dae466775 |	VirusShare_0d00ec451b1aa695055f43e355442c89
 --------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------
-Avast | | | |
-AVG
-Kaspersky
-GData
-Microsoft
-ClamAV
-BitDefenderTheta
-Tencent
-Avast-Mobile
-Fortinet
-ZoneAlarm
-AhnLab-V3
-McAfee
-McAfee-GW-Edition
-TrendMicro-HouseCall
+MicroWorld-eScan |  | | |
+Ad-Aware
 BitDefender
 FireEye
-MicroWorld-eScan
-MAX
-Ad-Aware
+GData
 Emsisoft
-ALYac
-TrendMicro
-Avira
-Sophos
-Cynet
-Sangfor
-Rising
-Cyren
-Lionic
+NANO-Antivirus
+Tencent
 Ikarus
+AVG
+Kaspersky
+MAX
+McAfee
+Microsoft
 Symantec
-MaxSecure
+Avast
+ClamAV
+ESET-NOD32
+TrendMicro-HouseCall
+SentinelOne
+McAfee-GW-Edition
+Sangfor
+TrendMicro
+Zillya
+DrWeb
+ALYac
+Comodo
+Rising
+Fortinet
+Jiangmin
+Lionic
+Avira
+Cynet
+Sophos
+ZoneAlarm
 Arcabit
-Bkav
-CMC
-VBA32
-F-Prot
-Babable
-CAT-QuickHeal
+Cyren
+AhnLab-V3
 Qihoo-360
+Antiy-AVL
+F-Secure
+Avast-Mobile
+BitDefenderTheta
+MaxSecure
 Panda
-Malwarebytes
+Yandex
+CAT-QuickHeal
 VIPRE
+CMC
+ViRobot
+VBA32
+Gridinsoft
+F-Prot
+SymantecMobileInsight
+Bkav
+CyrenCloud
+TotalDefense
+Zoner
+Acronis
+CrowdStrike
+Invincea
+Trustlook
+Elastic
+Babable
+Malwarebytes
+eGambit
 K7AntiVirus
 K7GW
-Yandex
 Baidu
-Zoner
-ESET-NOD32
-Jiangmin
-NANO-Antivirus
-Acronis
 SUPERAntiSpyware
 TACHYON
-Comodo
-F-Secure
-ViRobot
-DrWeb
-Gridinsoft
 Kingsoft
-Antiy-AVL
-Zillya
-TotalDefense
-
+Cybereason
 
 
 ## Materials and Methods
