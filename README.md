@@ -37,7 +37,7 @@ It is included as adversity, in the combat to malicious applications, the fact o
 
 Antivirus |	Deteccion (%) |	False Negative (%) |	Omission (%)
 --------- | ------------- | ------------------ | -------------
-Avast	| 24 | 	76 |	0 |
+Avast	| 24% | 	76% |	0% |
 AVG	24	1	75
 Kaspersky	21	79	0
 GData	21	78	1
