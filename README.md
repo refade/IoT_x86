@@ -195,7 +195,7 @@ Cybereason | null | null | null |
 
 ## Materials and Methods
 
-This paper proposes a database aiming at the classification of 32-bit x86 benign and malware executables. There are 1,600 malicious executables, and 1,600 other benign executables. Therefore, our dataset is suitable for learning with artificial intelligence, since both classes of executables have the same amount.
+This paper proposes a database aiming at the classification of 32-bit x86 benign and malware executables. There are 1,200 malicious executables, and 1,200 other benign executables. Therefore, our dataset is suitable for learning with artificial intelligence, since both classes of executables have the same amount.
 
 For the construction of a pattern recognition AI (artificial intelligence), the conventional method used for its training is the use of classes and counter classes of a certain filetype. The designation chosen to refer to the categories was "benign files" for serious and safe applications and "malignant files" for applications that can be a threat to the user. The malwares samples are executables files for 32-bit x86 (.elf). The virtual plages were extracted from databases made avaiable by enthusiastic groups about the study of malwares through the digital plataform VirusShare. It should be noted that all benign executables were submitted to VirusTotal and all were its benign attested by the main commercial antivirus worldwide. The diagnostics, provided by VirusTotal, corresponding to the benign and malware executables are available in the virtual address of our
 database.
