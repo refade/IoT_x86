@@ -116,81 +116,81 @@ Cybereason	      | 0%	   | 0,08% |	99,92%|
 
 ###### Table 3 Miscellaneous classifications of commercial antiviruses:
 
-Antivírus |	VirusShare_0d1b1736b6b210f5e036c35278db4fbc |	VirusShare_0d2ca61588afc2c98798333dae466775 |	VirusShare_0d00ec451b1aa695055f43e355442c89
+Antivírus |	VirusShare_00d0e365b421e81cd7205195199cd0a0 |	VirusShare_00d051be54a70826b8d20645900c6c1a |	VirusShare_0d057b1b2d81728cb97f5484e9344fc0
 --------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------
-MicroWorld-eScan |  | | |
-Ad-Aware
-BitDefender
-FireEye
-GData
-Emsisoft
-NANO-Antivirus
-Tencent
-Ikarus
-AVG
-Kaspersky
-MAX
-McAfee
-Microsoft
-Symantec
-Avast
-ClamAV
-ESET-NOD32
-TrendMicro-HouseCall
-SentinelOne
-McAfee-GW-Edition
-Sangfor
-TrendMicro
-Zillya
-DrWeb
-ALYac
-Comodo
-Rising
-Fortinet
-Jiangmin
-Lionic
-Avira
-Cynet
-Sophos
-ZoneAlarm
-Arcabit
-Cyren
-AhnLab-V3
-Qihoo-360
-Antiy-AVL
-F-Secure
-Avast-Mobile
-BitDefenderTheta
-MaxSecure
-Panda
-Yandex
-CAT-QuickHeal
-VIPRE
-CMC
-ViRobot
-VBA32
-Gridinsoft
-F-Prot
-SymantecMobileInsight
-Bkav
-CyrenCloud
-TotalDefense
-Zoner
-Acronis
-CrowdStrike
-Invincea
-Trustlook
-Elastic
-Babable
-Malwarebytes
-eGambit
-K7AntiVirus
-K7GW
-Baidu
-SUPERAntiSpyware
-TACHYON
-Kingsoft
-Cybereason
+MicroWorld-eScan | Trojan.Linux.GenericA.27477 | Trojan.Linux.GenericA.54744 | Trojan.Linux.Rootkit.K |
+Ad-Aware | Trojan.Linux.GenericA.27477 | Trojan.Linux.GenericA.54744 | Trojan.Linux.Rootkit.K | 
+BitDefender | Trojan.Linux.GenericA.27477 | Trojan.Linux.GenericA.54744 | Trojan.Linux.Rootkit.K | 
+FireEye | Trojan.Linux.GenericA.27477 | Trojan.Linux.GenericA.54744 | not_detected | 
+GData | Trojan.Linux.GenericA.27477 | Trojan.Linux.GenericA.54744 | Trojan.Linux.Rootkit.K |
+Emsisoft | Trojan.Linux.GenericA.27477 (B) | Trojan.Linux.GenericA.54744 (B) | Trojan.Linux.Rootkit.K (B) | 
+NANO-Antivirus | Exploit.Elf32.Local.huyk | Exploit.Elf32.Race.bfneru | Trojan.Elf32.Agent.dnfvxo | 
+Tencent | Linux.Exploit.Local.Eya | Linux.Exploit.Race.Eya | Linux.Rootkit.Agent.Eyf | 
+Ikarus | Trojan.Linux.Exploit | Exploit.Linux.Race | Trojan.Linux.Rootkit | 
+AVG | ELF:Local-P [Expl] | ELF:Agent-ABY [Expl] | ELF:Rootkit-AF [Trj] | 
+Kaspersky | Exploit.Linux.Local.v | Exploit.Linux.Race.r | Rootkit.Linux.Agent.k | 
+MAX | malware (ai score=100) | malware (ai score=100) | malware (ai score=100) | 
+McAfee | Unix/Exploit.gen.a | not_detected | Linux/Rootkit-M | 
+Microsoft | Exploit:Linux/Local.V | Exploit:Linux/Madvise.W | Trojan:Linux/Rootkit.K | 
+Symantec | Trojan Horse | Hacktool | Trojan.Gen.NPE | 
+Avast | ELF:Local-P [Expl] | ELF:Agent-ABY [Expl] | ELF:Rootkit-AF [Trj] |  
+ClamAV | Unix.Malware.Agent-6819872-0 | Unix.Exploit.Race-2 | not_detected | 
+ESET-NOD32 | Linux/Exploit.Local.V | Linux/Exploit.Race.A | Linux/Rootkit.Agent.K | 
+TrendMicro-HouseCall | TROJ_Generic | not_detected | UNIX_Generic | 
+SentinelOne | Static AI - Malicious ELF | Static AI - Suspicious ELF | Static AI - Suspicious ELF | 
+McAfee-GW-Edition | Unix/Exploit.gen.a | not_detected | Linux/Rootkit-M | 
+Sangfor | Suspicious.Linux.Save.a | Suspicious.Linux.Save.a | Suspicious.Linux.Save.a | 
+TrendMicro | TROJ_Generic | not_detected | UNIX_Generic | 
+Zillya | Exploit.Local.Linux.31 | Trojan.Exploit.Linux.1 | RootKit.Agent.Linux.234 | 
+DrWeb | not_detected | Linux.Exploit.Siggen.69 | not_detected | 
+ALYac | Trojan.Linux.GenericA.27477 | null | Trojan.Linux.Rootkit.K | 
+Comodo | Malware@#3f97livege4i7 | Malware@#g123c89pbfbh | Malware@#3c8qnzrx76e0f | 
+Rising | Hack.Exploit.Linux.Local.ah (CLASSIC) | Exploit.Madvise!8.2C15 (LIGHT:00D051BE54A70826B8D20645900C6C1A) | RootKit.Linux.Agent.yx (CLASSIC) |
+Fortinet | Linux/Local.V!exploit | not_detected | Linux/Rootkit.K!tr.rkit | 
+Jiangmin | Exploit.Linux.dg | Exploit.Linux.lv | Rootkit.Linux.cl | 
+Lionic | Hacktool.Linux.Local.3!c | Hacktool.Linux.Race.3!c | Trojan.Linux.Agent.5!c | 
+Avira | not_detected | LINUX/Explorexp | not_detected |  
+Cynet | not_detected | Malicious (score: 99) | not_detected |
+Sophos | Mal/Behav-175 | Troj/Race-Gen | Troj/Rootkit-K | 
+ZoneAlarm | Exploit.Linux.Local.v | Exploit.Linux.Race.r | not_detected | 
+Arcabit | not_detected | not_detected | not_detected |  
+Cyren | E32/Trojan.BW | not_detected | Unix/Rootkit | 
+AhnLab-V3 | not_detected | not_detected | not_detected | 
+Qihoo-360 | not_detected | not_detected | not_detected |  
+Antiy-AVL | null | null | null | 
+F-Secure | not_detected | not_detected | not_detected | 
+Avast-Mobile | not_detected | not_detected | not_detected | 
+BitDefenderTheta | not_detected | not_detected | not_detected | 
+MaxSecure | not_detected | not_detected | not_detected | 
+Panda | not_detected | not_detected | Trojan Horse | 
+Yandex | not_detected | not_detected | not_detected | 
+CAT-QuickHeal | not_detected | not_detected | not_detected | 
+VIPRE | not_detected | not_detected | not_detected | 
+CMC | not_detected | not_detected | not_detected | 
+ViRobot | not_detected | not_detected | not_detectd | 
+VBA32 | not_detected | not_detected | not_detected |  
+Gridinsoft | not_detected | not_detected | not_detected | 
+F-Prot | null | null | null | 
+SymantecMobileInsight | null | null | null | 
+Bkav | not_detected | not_detected | not_detected  | 
+CyrenCloud | null | null | null | 
+TotalDefense | null | null | null | 
+Zoner | not_detected | not_detected | not_detected | 
+Acronis | not_detected | not_detected | not_detected |
+CrowdStrike | null | null | null | 
+Invincea | null | null | null | 
+Trustlook | null | null | null | 
+Elastic | null | null | null | 
+Babable | null | null | null |  
+Malwarebytes | not_detected | not_detected | not_detected | 
+eGambit | null | null | null | 
+K7AntiVirus | not_detected | not_detected | not_detected | 
+K7GW | not_detected | not_detected | not_detected |   
+Baidu | not_detected | not_detected | not_detected | 
+SUPERAntiSpyware | not_detected | not_detected | not_detected | 
+TACHYON | not_detected | not_detected | not_detected | 
+Kingsoft | not_detected | not_detected | not_detected | 
+Cybereason | null | null | null | 
 
 
 ## Materials and Methods
